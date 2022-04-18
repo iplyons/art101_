@@ -1,20 +1,27 @@
 h1{
-  color:#00008B;
-  font-size: 400%;
+  color: #a56d1d;
+  font-size: 400%
   font-family: fantasy;
 }
 p#boat {
-  font-family: serif;
+  color: #316e57;
+  font-family:serif;
   line-height: 1.5;
   text-indent: 20px;
   margin-left: 10px;
 }
 #content{
-  background-color: lavender;
+  background-color: violet;
   width: 1400px;
   min-height: 1400px;
   padding: 15px;
 }
 #img{
-  width: 400px
+  width: 400px;
+
+}
+h2{
+  width: 400px;
+  font-size: 250%;
+  font-family: fantasy;
 }
