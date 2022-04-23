@@ -21,3 +21,9 @@ h2{
 script{
   font-family:monospace;
 }
+p {
+  font-family:serif;
+  line-height: 1.5;
+  text-indent: 20px;
+  margin-left: 10px;
+}
