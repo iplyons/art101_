@@ -17,3 +17,7 @@ h2{
   width: 400px;
   font-size: 250%;
   font-family:fantasy;
+}
+script{
+  font-family:monospace;
+}
