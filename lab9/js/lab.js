@@ -7,7 +7,7 @@
 let outputE1 = document.getElementById('output');
 
 // creating a new element assinging it to a newE1 and changing its HTML
-let newE1 = document.createElement('p');
+let new1E1 = document.createElement('p');
 new1E1.innerHTML = 'Never gonna give you up!';
 
 //creating another new element ans assining it to a new2E1 and chaning its HTML
