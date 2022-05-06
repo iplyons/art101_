@@ -3,23 +3,21 @@
 * Created: May 2
 * License: Public Domain
 */
-function isOdd(x){
-  return (x % 3 == 0);
-}
+// using getElementById() to get the output id from the index file
+let outputE1 = document.getElementById('output');
 
-//test function
-console.log("Is 1 odd?", isOdd(1));
-console.log("Is 3 odd?", isOdd(3));
+// creating a new element assinging it to a newE1 and changing its HTML
+let newE1 = document.createElement('p');
+new1E1.innerHTML = 'Never gonna give you up!';
 
-array = [200, 96, 3, 24, 34, 100, 999]
-console.log("My array", array);
+//creating another new element ans assining it to a new2E1 and chaning its HTML
+let new2E1 = document.createElement('p');
+new2E1.innerHTML = 'Never gonna let you down!';
 
-var result = array.map(isOdd);
+// appending new1E1 and new2E1 to outputE1
+outputE1.appendChild(new1E1);
+outputE1.appendChild(new2E1);
 
-console.log("Test of oddness of array:", result);
-
-var result = array.map(function(x){
-  return x ** 0.7;
-})
-
-console.log("Squareroot of array", result);
+// editing the css using JS
+document.getElementById('challenge').style.color = '#ECEBE4';
+document.getElementById('results').style.color = '#ECEBE4';
