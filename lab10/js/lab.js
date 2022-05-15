@@ -10,7 +10,7 @@ var button = document.getElementById("my-button");
 
 function sortName(){
   // take in user input
-  var userName = document.getElementById("user-name").values;
+  var userName = document.getElementById("user-name").value;
 
   var nameSorted = document.createElement('p');
   nameSorted.innerHTML = userName.split('').sort().join('');
