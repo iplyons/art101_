@@ -13,9 +13,13 @@ function apiClick(){
   $.ajax({
 
     url: apiEndpoint,
+
     data: { },
+
     type:"GET",
+
     dataType : "json",
+
     sucess: function( data ){
       str = ""
       str += "<p>" + data.value + "</p>";
@@ -30,4 +34,4 @@ function apiClick(){
 
   })
 }
-$("activate").click(apiClick);
+$("#activate").click(apiClick);
